@@ -14,7 +14,6 @@ import validator from './modules/validator';
 import sendForm from './modules/sendForm';
 import upArrow from './modules/upArrow';
 import fixedTopMenu from './modules/fixedTopMenu';
-
 getDropDownMenu();
 getFreeVisit();
 getCallback();
