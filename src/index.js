@@ -1,0 +1,34 @@
+'use strict';
+
+import closePopup from './modules/closePopup';
+import getDropDownMenu from './modules/getDropDownMenu';
+import getFreeVisit from './modules/getFreeVisit';
+import getCallback from './modules/getCallback';
+import getGift from './modules/getGift';
+import getPopupMenu from './modules/getPopupMenu';
+import slider from './modules/slider';
+import servicesSlider from './modules/servicesSlider';
+import gallerySlider from './modules/gallerySlider';
+import getCards from './modules/getCards';
+import validator from './modules/validator';
+import sendForm from './modules/sendForm';
+import upArrow from './modules/upArrow';
+import fixedTopMenu from './modules/fixedTopMenu';
+
+getDropDownMenu();
+getFreeVisit();
+getCallback();
+getGift();
+getPopupMenu();
+slider();
+servicesSlider();
+gallerySlider();
+getCards();
+validator();
+sendForm('#form1');
+sendForm('#form2');
+sendForm('#banner-form');
+sendForm('#card_order');
+sendForm('#footer_form');
+upArrow();
+fixedTopMenu();
