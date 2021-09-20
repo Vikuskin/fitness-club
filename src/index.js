@@ -1,5 +1,4 @@
 'use strict';
-
 import closePopup from './modules/closePopup';
 import getDropDownMenu from './modules/getDropDownMenu';
 import getFreeVisit from './modules/getFreeVisit';
